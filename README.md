@@ -8,7 +8,7 @@ This project, developed by Mihir Shah, demonstrates data processing using Apache
 The project comprises two main Python files:
 
 1.  `data_processing_batch_job.py`: This script contains the main Apache Beam pipeline that performs the data processing tasks.
-2.  `data_processing_unittest.py`: This script contains unit tests for the transformations used in the Apache Beam pipeline.
+2.  `data_processed_unittest.py`: This script contains unit tests for the transformations used in the Apache Beam pipeline.
 
 ## How It Works
 
@@ -52,7 +52,7 @@ You can run the Apache Beam pipeline with the following command:
 
 To run the unit tests, execute the following command:
 
-`python -m unittest data_processing_unittest.py` 
+`python -m unittest data_processed_unittest.py` 
 
 ## Notes
 
