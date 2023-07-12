@@ -24,15 +24,15 @@ To set up and run the data processing pipeline, follow these steps:
 
 1.  Clone the GitHub repository:
     
-    `git clone https://github.com/Mir955/data_processing.git` 
+    `git clone https://github.com/Mir955/Data-processing-with-Apache-Beam.git` 
     
 2.  Navigate to the cloned project directory:
         
-    `cd Data Processing with Apache Beam` 
+    `cd Data-processing-with-Apache-Beam` 
     
 3. Create and activate virtual environment
 	
-    `virtualenv venv`
+    `python3 -m venv venv`
 
 	`venv\Scripts\activate` 
  
@@ -43,11 +43,8 @@ To set up and run the data processing pipeline, follow these steps:
 
 ## Running the Project
 
-Ensure you have the necessary Python packages installed by running:
 
-`pip install apache-beam[gcp]` 
-
-Then, you can run the Apache Beam pipeline with the following command:
+You can run the Apache Beam pipeline with the following command:
 
 `python data_processing_batch_job.py` 
 
